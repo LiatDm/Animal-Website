@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <h1>חנות החיות המגניבה בארץ!</h1>
     <hr>
-    <div class="center">
+
+    <div class="menu">
     <a class="link" href="index.html">דף הבית</a>
     <span> | </span>
     <a class="link" href="animals.html">חיות</a>
@@ -19,43 +21,64 @@
 
     <h3>צור קשר</h3>
 
-    <div class="form-container">
-        <form action="save.html">
-        <label>שם פרטי:</label>
-        <input type="text" name="firstName" id="firstNameBox">
-        <br><br>
-        <label>שם משפחה:</label>
-        <input type="text" name="lastName" id="lastNameBox">
-        <br><br>
-        <label>מין:</label>
+        <form class="form-container" action="save.html">
+
+        <div>שם פרטי:</div>
+
+        <div>
+            <input type="text" name="firstName" id="firstNameBox">
+        </div>
+
+        <div>שם משפחה:</div>
+
+        <div>
+            <input type="text" name="lastName" id="lastNameBox">
+        </div>
+
+        <div>מין:</div>
+
+        <div>
+            
+        </div>
        
-        <label for="maleBox">זכר</label>
-        <input type="radio" name="gender" value="male" id="maleBox">
-        <br>
-        <label for="femaleBox">נקבה</label>
-        <input type="radio" name="gender" value="female" id="femaleBox">
-        <br>
-        <label>עיר:</label>
-        <select name="city">
+        <div for="maleBox">זכר</div>
+        <div>
+            <input type="radio" name="gender" value="male" id="maleBox">
+        </div>
+
+        <div for="femaleBox">נקבה</div>
+        <div>
+            <input type="radio" name="gender" value="female" id="femaleBox">
+        </div>
+
+        <div>עיר:</div>
+
+        <div>
+            <select name="city">
             <option>תל אביב</option>
             <option>ירושלים</option>
             <option>חיפה</option>
             <option>רמת גן</option>
             </select>
-            <br><br>
-            <label>הודעה:</label>
-            <textarea name="text"></textarea>
-            <br><br>
+        </div>
 
-            <button>שלח</button>
-            <input type="reset" value="נקה" name="reset" id="resetBox"> 
+            <div>הודעה:</div>
+
+            <div>
+                <textarea name="text"></textarea>
+            </div>
+
+            <div>
+                <button>שלח</button>
+            </div>
+            <div>
+                <input type="reset" value="נקה" name="reset" id="resetBox">
+            </div> 
 
     </form>
-</div>
 
-
-    <div class="center">
-        <p>כל הזכויות שמורות &#169</p>
+    <div class="copyrights">
+        <p>כל הזכויות שמורות ©️</p>
     </div>
 
     

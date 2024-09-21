@@ -1,26 +1,25 @@
-h1, h3 {
-    text-align: center;
-    color: brown;
-}
-
 body {
-    margin: 0;
-    height: 100%;
+    text-align: center;
     direction: rtl;
     background-color: beige;
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.center {
+h1, h3 {
+    color: brown;
+}
+
+.menu {
     text-align: center;
+}
+
+.link:hover {
+    color: chartreuse;
 }
 
 .img-container {
 display: block;
-margin-left: auto;
-margin-right: auto;
-width: 40%;
 }
 
 .img-container > img {
@@ -28,21 +27,26 @@ width: 40%;
     height: 150px;
 }
 
-label {
-    color: chocolate;
-}
-
 .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
 }
 
-input, textarea, button {
+.form-container > div {
+    padding: 5px;
+}
+
+.form-container input, .form-container textarea, .form-container button {
+    width: 100%;
+    box-sizing: border-box;
     background-color:khaki;
 }
 
-.link:hover {
-    color: chartreuse;
+.copyrights {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
 }
-
